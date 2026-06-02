@@ -1,5 +1,5 @@
 import React from 'react'
-import { ScrollTrigger, SplitText } from 'gsap/all'
+import { ScrollTrigger, SplitText } from 'gsap/all.js'
 import gsap from 'gsap'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
