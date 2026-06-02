@@ -3,7 +3,7 @@ import { ScrollTrigger, SplitText } from 'gsap/All'
 import gsap from 'gsap'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
-import Cocktails from './components/cocktails'
+import Cocktails from './components/Cocktails'
 
 
 gsap.registerPlugin(ScrollTrigger, SplitText)
