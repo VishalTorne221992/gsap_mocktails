@@ -2,7 +2,7 @@ import { useGSAP } from '@gsap/react'
 import gsap from 'gsap';
 import { cocktailLists, mockTailLists } from '../../constants/index.js'
 
-const Cocktails = () => {
+const Mocktails = () => {
  useGSAP(() => {
 	const parallaxTimeline = gsap.timeline({
 	 scrollTrigger: {
@@ -18,7 +18,7 @@ const Cocktails = () => {
 		x: -100, y: 100
 	})
 	 .from('#c-right-leaf', {
-		x: 50, y: 100
+		x: 100, y: 100
 	})
  })
  
@@ -64,4 +64,4 @@ const Cocktails = () => {
  )
 }
 
-export default Cocktails
+export default Mocktails
