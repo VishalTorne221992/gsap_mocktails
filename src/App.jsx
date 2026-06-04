@@ -7,6 +7,7 @@ import { ScrollTrigger, SplitText } from 'gsap/all.js'
 import About from './components/About'
 import Art from './components/Art.jsx'
 import Menu from './components/Menu.jsx'
+import Contact from './components/Contact.jsx'
 
 
 
@@ -22,6 +23,7 @@ const App = () => {
         <About />
         <Art />
         <Menu />
+        <Contact />
     </main>
   )
 }
