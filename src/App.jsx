@@ -6,6 +6,7 @@ import Cocktails from './components/Cocktails.jsx'
 import { ScrollTrigger, SplitText } from 'gsap/all.js'
 import About from './components/About'
 import Art from './components/Art.jsx'
+import Menu from './components/Menu.jsx'
 
 
 
@@ -20,6 +21,7 @@ const App = () => {
         <Cocktails />
         <About />
         <Art />
+        <Menu />
     </main>
   )
 }
