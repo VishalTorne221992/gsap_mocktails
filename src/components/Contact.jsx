@@ -13,7 +13,7 @@ const Contact = () => {
             scrollTrigger: {
                 trigger: '#contact',
                 start: 'top center',
-
+                scrub: true
             },
             ease: 'power1.inOut'
         })
