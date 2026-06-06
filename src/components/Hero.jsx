@@ -112,6 +112,8 @@ const Hero = () => {
 	 <div className="video absolute inset-0">
 		<video
 		 ref={videoRef}
+		 autoPlay
+		 loop
 		 muted
 		 playsInline
 		 src="/videos/output.mp4"
