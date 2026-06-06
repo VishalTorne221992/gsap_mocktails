@@ -3,14 +3,15 @@ import gsap from 'gsap';
 import { cocktailLists, mockTailLists } from '../../constants/index.js'
 
 
-const Cocktails = () => {
+const Cocktails = () => {	
  useGSAP(() => {
 	const parallaxTimeline = gsap.timeline({
 	 scrollTrigger: {
 		trigger: '#cocktails',
 		start: 'top 30%',
-		end: 'bottom 80%',
+		end: '40% 80%',
 		scrub: true,
+		markers: true
 	 }
 	})
 	
@@ -19,8 +20,9 @@ const Cocktails = () => {
 		x: -100, y: 100
 	})
 	 .from('#c-right-leaf', {
-		x: 50, y: 100
+		x: 80, y: 80
 	})
+
  })
  
  return (
